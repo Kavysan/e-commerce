@@ -1,0 +1,172 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.parent-div{
+    font-size: 39px;
+    font-weight: bold;
+    padding-top: 1%;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: floralwhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.stick{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.women-cat{
+    width:80%;
+    align-items: center!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+.image-container img {
+width: 100%; 
+height: auto; 
+margin-bottom: 20px;
+}
+
+/* ------ */
+
+.dress-cat{
+    margin-top: 2%;
+    
+
+}
+
+.dress-section{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 100px; */
+}
+
+/* --------- */
+.sections{
+    background-color: rgb(238, 236, 236);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-size: x-large;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.cat{
+    margin-bottom: 30px;
+}
+/* .each-img:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+} */
+
+
+.dress-section img {
+    transition: box-shadow 0.3s ease-in-out;
+}
+  
+.dress-section img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    /* border: black!important; */
+}
+
+.cart-under-dress{
+    /* padding-right: 7%; */
+    text-align:end;
+    justify-content: space-between;
+    font-size:large;
+    color: black!important;
+}
+
+.cart-under-dress:hover{
+    /* font-size: x-large; */
+    transition: box-shadow 0.3s ease-in-out;
+    color: orangered!important;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); */
+    
+}
+
+.text-under-dress{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.text-area{
+    /* margin-top: 1%; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.dollars{
+    font-weight: bolder;
+    color: orangered;
+    /* padding: 0; */
+
+}
+
+.cost{
+    margin:0;
+    padding: 0;
+}
+
+.see-all{
+    text-align: end;
+    padding-right: 3%;
+    
+    
+}
+
+.see-all a{
+    color: orangered!important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.see-all a:hover{
+    /* font-weight: bold; */
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: large;
+
+}
+/* ------- */
+.size-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid  rgb(222, 197, 152)!important;
+}
+
+.size-circle.selected {
+    background-color: rgb(222, 197, 152);
+}
+
+.text-under-dress-pop-up {
+    padding-top: 2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+Button{
+    /* background-color:  rgb(222, 197, 152)!important; */
+    background-color:  orangered!important;
+    border: none!important;
+}
+
+Button:hover{
+    background-color:  rgb(222, 197, 152)!important;
+    /* background-color:  orangered!important; */
+
+}
